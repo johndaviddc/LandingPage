@@ -73,3 +73,17 @@ form input[type="email"] {
     width: 80%;
     max-width: 400px;
 }
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+    #nav-bar {
+        margin: 0;
+    }
+
+    .nav-link {
+        margin: 10px 0;
+    }
+}
